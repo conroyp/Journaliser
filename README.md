@@ -13,6 +13,13 @@ To this end, this simple chrome extension will turn off the regular
 comments on the site, and replace them with choice quotes from either The 
 Muppets or The West Wing.
 
+Adding new comments
+-------------
+* Add a js file to the content dir containing characters and quotes (see format of
+existing muppets.js/westwing.js files)
+* Add entry for this file to popup.html (allows user to toggle between comments)
+* Add icon to /i/ folder to be shown on user popup
+
 Installation
 -------------
 
