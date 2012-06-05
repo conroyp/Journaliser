@@ -19,6 +19,7 @@ Adding new comments
 existing muppets.js/westwing.js files)
 * Add entry for this file to popup.html (allows user to toggle between comments)
 * Add icon to /i/ folder to be shown on user popup
+* Add an entry for this js file to manifest.json, content_scripts->js, before journaliser.js
 
 Installation
 -------------
