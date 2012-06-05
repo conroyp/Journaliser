@@ -1,7 +1,7 @@
 {
     "name": "Journaliser"
     , "description": "Replace the comments and commenters on TheJournal.ie with "
-        + "those from the Muppets and the West Wing!"
+        + "those from The Muppets, The West Wing and The Thick Of It!"
     , "icons": {
         "128": "i/icon128.png"
         , "48": "i/icon48.png"
@@ -26,6 +26,7 @@
         , "js": [
             "js/jquery-1.7.2.min.js"
             , "content/muppets.js"
+            , "content/thickofit.js"
             , "content/westwing.js"
             , "js/journaliser.js"
         ]
