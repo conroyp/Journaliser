@@ -1,0 +1,38 @@
+{
+    "name": "Journaliser"
+    , "description": "Replace the comments and commenters on TheJournal.ie with "
+        + "those from the Muppets and the West Wing!"
+    , "icons": {
+        "128": "i/icon128.png"
+        , "48": "i/icon48.png"
+        , "32": "i/icon32.png"
+        , "16": "i/icon16.png"
+    }
+    , "background": {
+        "scripts": ["js/background.js"]
+    }
+    , "browser_action": {
+        "default_icon":     "i/icon16.png"
+        , "default_title":  "Journaliser"
+        , "default_popup":  "popup.html"
+    }
+    , "version": "1.0"
+    , "content_scripts": [{
+        "matches": [
+            "http://*.thejournal.ie/*"
+            , "http://*.thescore.ie/*"
+        ]
+        // Content scripts must be loaded before journaliser
+        , "js": [
+            "js/jquery-1.7.2.min.js"
+            , "content/muppets.js"
+            , "content/westwing.js"
+            , "js/journaliser.js"
+        ]
+    }]
+    , "permissions": [
+        "tabs"
+        , "http://*.thejournal.ie/*"
+        , "http://*.thescore.ie/*"
+    ]
+}

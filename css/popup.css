@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+    margin: 0px;
+    padding: 5px;
+}
+.popup_item {
+    margin-top: -1px;
+    background: #ededed;
+    border: 1px solid grey;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.popup_item:hover, .popup_active {
+    background: #fff;
+    font-weight: bold;
+}
+.popup_item img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#popup_intro {
+    margin-bottom: 5px;
+}
