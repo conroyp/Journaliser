@@ -7,7 +7,13 @@ chrome.extension.onRequest.addListener(
     {
         if (request.action == "getCommentPref")
         {
-            sendResponse({commentPref: localStorage["journalComments"]});
+            // Could be first run with no localstorage val
+            if (localStorage["journalCommenters"] === undefined)
+            {
+                localStorage["journalCommenters"] = "default";
+            }
+
+            sendResponse({commentPref: localStorage["journalCommenters"]});
         }
     }
 );

@@ -6,7 +6,7 @@
 function setPref(opt)
 {
     // Stick it in local storage
-    localStorage["journalComments"] = opt;
+    localStorage["journalCommenters"] = opt;
     // Tell the current tab to toggle commenters/reload
     chrome.tabs.getSelected(
         null
