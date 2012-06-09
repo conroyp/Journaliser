@@ -11,12 +11,14 @@ bit.. noisy.
 
 To this end, this simple chrome extension will turn off the regular
 comments on the site, and replace them with choice quotes from either The 
-Muppets or The West Wing.
+Muppets, The Thick of It or The West Wing.
+N.B. The Thick of It contains some very unparliamentary language, so may not be
+all the safe for work or sensitive eyes.
 
 Adding new comments
 -------------
 * Add a js file to the content dir containing characters and quotes (see format of
-existing muppets.js/westwing.js files)
+existing muppets.js/thickofit.js/westwing.js files)
 * Add entry for this file to popup.html (allows user to toggle between comments)
 * Add icon to /i/ folder to be shown on user popup
 * Add an entry for this js file to manifest.json, content_scripts->js, before journaliser.js
