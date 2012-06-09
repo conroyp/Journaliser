@@ -53,6 +53,8 @@ function swapCommenters(charPref)
 
                 // Replace image, name and link
                 $(".avatar", $(k)).attr('src', character.image);
+                // Stop lazy loading from borking images
+                $(".avatar", $(k)).attr('data-original', character.image);
                 $(".url", $(k)).attr('href', character.link);
                 $(".url", $(k)).text(character.name);
 
