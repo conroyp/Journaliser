@@ -27,7 +27,6 @@ chrome.extension.onRequest.addListener(
     }
 );
 
-
 var characters;
 
 
@@ -42,13 +41,12 @@ function swapCommenters(charPref)
     {
         // @TODO: Not wild about eval - array index?
         characters = eval(charPref);
-
         $.each(
             $('.comment')
             , function(i, k)
             {
                 // Get commenter's socmed id - use it as basis for character sub
-                var authorLink = $(".avatar", $(k)).attr('src');
+                var authorLink = $(".avatar", $(k)).attr('data-original');
                 var character = getCharacter(authorLink);
 
                 // Replace image, name and link
