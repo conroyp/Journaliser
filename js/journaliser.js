@@ -49,10 +49,12 @@ function swapCommenters(charPref)
                 var authorLink = $(".avatar", $(k)).attr('data-original');
                 var character = getCharacter(authorLink);
 
+                // Stop lazy loading from borking images
+                // Run before src change to stop lazy loading skipping in ahead of
+                // us and putting in user's correct avatar
+                $(".avatar", $(k)).attr('data-original', character.image);
                 // Replace image, name and link
                 $(".avatar", $(k)).attr('src', character.image);
-                // Stop lazy loading from borking images
-                $(".avatar", $(k)).attr('data-original', character.image);
                 $(".url", $(k)).attr('href', character.link);
                 $(".url", $(k)).text(character.name);
 
