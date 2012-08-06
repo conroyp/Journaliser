@@ -22,3 +22,18 @@ function setPref(opt)
         }
     );
 }
+
+// Attach click listener to comment style line items
+// Moved here from inline click handler as manifest v2 security
+// policy forbids such nonsense
+$(document).ready(function(){
+    // If an option has been selected already, highlight it
+    if (localStorage["journalCommenters"] !== undefined)
+    {
+        $('#'+localStorage["journalCommenters"]).addClass('popup_active');
+    }
+
+    $('.popup_item').click(function(){
+        setPref(this.id);
+    });
+});
