@@ -26,6 +26,7 @@
         // Content scripts must be loaded before journaliser
         , "js": [
             "js/jquery-1.7.2.min.js"
+            , "content/modernfamily.js"
             , "content/muppets.js"
             , "content/thickofit.js"
             , "content/westwing.js"
