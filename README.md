@@ -11,7 +11,7 @@ bit.. noisy.
 
 To this end, this simple chrome extension will turn off the regular
 comments on the site, and replace them with choice quotes from either The 
-Muppets, The Thick of It or The West Wing.
+Muppets, MOdern Family, The Thick of It or The West Wing.
 N.B. The Thick of It contains some very unparliamentary language, so may not be
 all the safe for work or sensitive eyes.
 
