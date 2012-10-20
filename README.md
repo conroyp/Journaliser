@@ -26,4 +26,4 @@ existing muppets.js/thickofit.js/westwing.js files)
 Installation
 -------------
 
-Available in the (https://chrome.google.com/webstore/detail/journaliser/ljhhfoppgnahjngcphlhipkihnaeigaf)[Chrome Store].
+Available in the [Chrome Store](https://chrome.google.com/webstore/detail/journaliser/ljhhfoppgnahjngcphlhipkihnaeigaf).
