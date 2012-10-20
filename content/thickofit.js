@@ -42,7 +42,7 @@ var thickofit = [
                 + "and fourthly, you've got a tiny head."
             , "What's that, cricket? That's the English equivalent of sport, isn't "
                 + "it? No actual physical contact, just glaring."
-            , "\Climbing the mountain of conflict\"? You sounded like a Nazi Julie "
+            , "\"Climbing the mountain of conflict\"? You sounded like a Nazi Julie "
                 + "Andrews!"
             , "You sure you're working as hard as I am, 'cause I'm sweating spinal "
                 + "fluid here!"
