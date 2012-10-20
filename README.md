@@ -13,7 +13,7 @@ To this end, this simple chrome extension will turn off the regular
 comments on the site, and replace them with choice quotes from either The 
 Muppets, Modern Family, The Thick of It or The West Wing.
 N.B. The Thick of It contains some very unparliamentary language, so may not be
-all the safe for work or sensitive eyes.
+all that safe for work or for sensitive eyes.
 
 Adding new comments
 -------------
@@ -29,4 +29,3 @@ Installation
 Chrome:
 
 Available in the [https://chrome.google.com/webstore/detail/journaliser/ljhhfoppgnahjngcphlhipkihnaeigaf](Chrome Store).
-
